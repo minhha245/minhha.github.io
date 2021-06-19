@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 768px) {
+	.header{
+		width: 300px;
+	}
+	}
+	@media screen and (max-width: 480px) {
+	
+	}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #F0F0EC;
+}
+
+.main{
+	overflow: auto;
+	margin: 10px 20px;
+	display: flex;
+}
+.aside-left{
+	width: 25%;
+	float: left;
+    border: none;
+    background: #FFFFFF;
+}
+.title-loc-sp {
+	margin: 25px 10px;
+    padding: 5px 0;
+	text-align: center;
+	font-size: 15px;
+    border: thin solid grey;
+    border-radius: 3px;
+}
+#title{
+	font-size: 17px;
+	padding: 20px 10px 10px;
+}
+.line-ngang{
+	width: auto;
+	height: 1px;
+	background: lightslategray;
+	margin: 0 10px;
+}
+.list-choice{
+	margin: 20px 25px 40px;
+}
+.list-choice a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+.list-choice li{
+	margin-bottom: 10px;
+	display: block;
+}
+.list-choice a:hover{
+	color: cadetblue;
+	font-size: 16px;
+}
+/*dinh dang cho list tu danh muc thu 2*/
+.list-choice2{
+	margin: 20px 25px 40px;
+}
+.list-choice2 a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.list-choice2 li{
+	margin-bottom: 10px;
+	display: block;
+}
+.list-choice2 a:hover{
+	color: cadetblue;
+}
+#loc{
+	width: auto;
+	height: 30px;
+	background-color: rgb(67, 125, 231);
+	color: whitesmoke;
+	padding: 5px 70px;
+	font-size: 15px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+.main2{
+	border: none;
+	width: auto;
+	margin-left: 10px;
+	background: #FFFFFF;
+}
+.duong-dan a,.duong-dan i{
+	text-decoration: none;
+	color: grey;
+}
+.duong-dan{
+	font-size: 22px;
+	margin: 30px 10px;
+}
+.list-article-top{
+	border: none;
+	background: #ddddd4;
+	margin: 10px 0;
+	height: 70px;
+	width: auto;
+	align-items: center;
+	display: flex;
+}
+.list-article-top .list-nextpage{
+	margin-left: 15px;
+}
+.list-article-top .locsp{
+	margin-left: 40px;
+	margin-right: 50px;
+	height: 25px;
+}
+.list-article-top .hangmoi {
+	display: block;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+.list-article-top a{
+	border: 1px dashed rgb(56, 122, 221);
+	border-radius: 3px;
+	position: relative;
+	color: rgb(56, 122, 221);
+	padding: 6px 10px 6px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	float: left;
+	margin-right: 5px;
+}
+.clear{
+	clear: both;
+}
+.list-article-top a:hover{
+	background: rgb(29, 90, 180);
+	color: white;
+}
+
+.article1 {
+	flex-wrap: wrap;
+	display: flex;
+}
+.a1 #picture{
+	text-align: center;
+	display: block;
+	position: relative;
+}
+.a1 #picture::before{
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 220px;
+	background-color: whitesmoke;
+	transition: .10s;
+}
+.a1 #picture:hover::before{
+	width: 280px;
+	height: 450px;
+	border: 1px solid thistle;
+	z-index: 1;
+}
+.a1 p{
+	font-size: 13px;
+	color: #8C8C8C;
+	padding-top: 10px;
+}
+.a1 a{
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+.a1 #giacu{
+	color: grey;
+	font-size: 20px;
+	text-decoration-line: line-through ;
+}
+.a1 #giamoi{
+	color: black;
+	font-size: 25px;
+	margin-right: 60px;
+}
+.article1 .a1{
+	border-bottom: thin solid #8C8C8C;
+	width: 22.8%;
+	height: 440px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.article1 .line-doc-sp{
+	width: 1px;
+	background: gray;
+	height: 460px;
+}
+
+.doc-them{
+	text-align: center;
+	padding-top: 20px;
+	background: #FFFFFF;	
+	padding-bottom: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	width: auto;
+}
+.doc-them h3, #note1{
+	text-transform: uppercase;
+}
+.doc-them #note1{
+	font-weight: 700;
+}
+.doc-them .doc-them2{
+	padding-left: 15px;
+	padding-right: 15px
+}
+
+#scrolltop{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 15px;
+    color: black;
+    background-color: rgb(243, 222, 138);
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    font-size: 15px;
+    height: 60px;
+    width: 60px;
+}
+#scrolltop:hover{
+    background-color: rgb(55, 122, 177);
+    color: white;
+}
+
+
+
+
+
+
+

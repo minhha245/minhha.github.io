@@ -1,0 +1,173 @@
+@charset "utf-8";
+/*body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	border: 1px solid #000;
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+
+}*/
+/*chitiet_sp*/
+.wrapper_chitiet{
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+}
+i.fa.fa-plus.fa-style{
+	font-size: 20px;
+	color: #0000ff;
+}
+i.fa.fa-plus.fa-style:hover{
+	color: brown;
+}
+i.fa.fa-minus.fa-style{
+	font-size: 20px;
+	color: #0000ff;
+}
+i.fa.fa-minus.fa-style:hover{
+	color: brown;
+}
+
+.hinhanh_sp{
+
+	float: left;
+	width: 50%;
+}
+.chitiet_sp{
+
+	float: left;
+	width: 40%;
+	margin:0 10px ;
+}
+input.themgiohang{
+	border: none;
+	background: brown;
+	color: #fff;
+	padding: 12px;
+	font-size: 15px;
+	cursor: pointer;
+}
+	#main{
+		border: 1px solid #00ff80;
+		height: auto;
+		width: auto;		
+	}
+	.sidebar{
+
+		border: 1px solid #ff80ff;
+		height: auto;
+		width: 19%;
+		background:  #668cff;
+		margin-top: 5px;
+		margin-left: 5px;
+
+		float: left;
+	}
+	ul.list_sidebar {
+		padding: 0;
+		margin: 0;
+		width: 60%;
+		list-style-type: none;
+		margin: 0 auto;
+		line-height: 20px;
+	}
+
+	ul.list_sidebar li {
+		
+		
+		margin: 10px;
+		padding: 6px;
+
+	}
+	ul.list_sidebar li:hover {
+		background-color: #33ff33;
+	}
+	ul.list_sidebar li a {
+		text-decoration: none;
+		text-align-last: center;
+		color: #b35900;
+	}
+	/*dangky*/
+	.dk{
+		margin-left: 12%;
+	}
+
+	.dn{
+		border: 1px solid black;
+		background: #098FC7;
+		color: #EFEFFC;
+		margin-left: 64%;
+		text-decoration: none;
+	}
+	.login{
+		margin-left: 30%;
+		margin-top: 2%;
+	}
+/*main_content*/
+	/*.main_content{
+		border: 1px solid  #0073e6;
+		height: auto;
+		width: auto;
+
+		margin-top: 5px;
+		margin-left:2px;
+		float: right;
+
+	}*/
+	.top_product{
+
+		border: 1px solid #0099ff;
+		width: 250px;
+		height: auto;
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		background:#546CE8; 
+		color:#ffffff;
+	}
+	ul.list_product{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		width: 100%;
+
+	}
+	ul.list_product li{
+		width: 18%;
+		border: 1px solid #000;
+		margin:13px;
+		float: left;
+		height: 380px;
+
+	}
+	ul.list_product li a{
+		text-decoration: none;
+	}
+	ul.list_product li img{
+		width: 100%;
+
+	}
+
+	p.title_product{
+		text-align: center;
+		color: #000;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	p.price_product{
+		text-align: center;
+		color: #ff0000;
+		font-size: 17px;
+		font-weight: bold;
+
+	}
+	p.cate_product{
+		text-align: center;
+		color:#d1d1d1;
+	}
+	.clear{
+		clear: both;
+	}

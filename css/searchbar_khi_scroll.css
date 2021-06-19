@@ -1,0 +1,274 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#slideDown{
+    display: flex;
+    background-color: rgb(62, 112, 185);
+	padding: 5px 30px;
+	align-items: center;
+	position: fixed; 
+	top: -60px; 
+	width: 100%; 
+	transition: top 0.3s; 
+}
+#thanh-menu{
+	margin-right: 50px;
+}
+.search-bar{
+	margin-right: 60px;
+}
+/*dropdown danh muc*/
+#thanh-menu ul{
+	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	list-style-type: none;
+	text-align: center;
+    width: 180px;
+}
+#thanh-menu #title-scrolldown{
+	background: #d18241;
+	color: rgb(34, 58, 80);
+	padding: 0 5px;
+}
+#thanh-menu li{
+	display: inline-block;
+	font-size: 18px;
+	width: 190px;
+	line-height: 35px;
+}
+#thanh-menu a{	
+	text-decoration: none;
+	display: block;
+}
+.list-danhmuc a:hover{
+	background-color: rgb(22, 83, 212);
+	color: white;
+}
+.list-danhmuc a{
+	font-size: 13px;
+	display: inline-block;
+	padding-left: 5px;
+	background-color: rgb(189, 182, 152);
+	color: black;
+}
+#thanh-menu li
+{
+	position: relative;
+}
+.list-danhmuc{
+	display: none;
+	position: absolute;
+}
+#thanh-menu li:hover .list-danhmuc{
+	display: block;
+	text-align: left;
+	z-index: 20;
+}
+
+/*thanh menu*/
+.search-bar{
+	display: flex;
+}
+.search-bar input[type=text]{
+	height: 23px;
+	width: 500px;
+	border: none;
+	font-size: 15px;
+	padding: 5px;
+}
+ .search-bar  button{
+	height: 33px;
+	width: 70px;
+	border: none;
+	background: rgb(209, 221, 155);
+	font-size: 22px;
+	
+}
+ .search-bar  button:hover{
+background: rgb(223, 96, 96);
+}
+/*dang ky dang nhap*/
+.action-for-user{
+	display: flex;
+}
+.line{
+	background: rgb(72, 31, 184);
+	height: 25px;
+	width: 1px;
+	margin: 12px;
+}
+
+/*phan dang ky dang nhap */
+.hoverlogin a{
+	color: black;
+}
+.logingoogle{
+	margin-top: 5px;
+	display: flex;
+}
+.logingoogle .iconlogin{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px ;
+	background: rgb(236, 44, 44);
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.logingoogle .logintxt{
+	background: rgb(243, 84, 56);
+	text-align: center;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	line-height: 40px;
+	height: 40px;
+	width: 250px;
+}
+/*login with fb*/
+.loginfb{
+	margin-top: 5px;
+	display: flex;
+}
+.loginfb .iconlogin{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px ;
+	background: rgb(20, 58, 129);
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.loginfb .logintxt{
+	background: rgb(45, 78, 148);
+	text-align: center;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	line-height: 40px;
+	height: 40px;
+	width: 250px;
+}
+/*login with zalo*/
+.loginzalo{
+	margin-top: 5px;
+	display: flex;
+}
+.loginzalo .iconlogin{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px ;
+	background: rgb(44, 105, 236);
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.loginzalo .logintxt{
+	background: rgb(75, 134, 245);
+	text-align: center;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	line-height: 40px;
+	height: 40px;
+	width: 250px;
+}/*hfhfhfhfh*/
+.log-in a{
+	border-radius: 2px;
+	background: rgb(253, 222, 47);
+	text-align: center;
+	padding: 10px;
+	margin-top: 5px;
+}
+.item4{
+	align-items: center;
+	display: flex;
+	padding: 5px;
+	position: relative;
+}
+.action-item .hoverlogin a{
+	display: block;
+	text-decoration: none;
+}
+.sign-in a{
+	display: block;
+	padding-left: 10px;
+	text-decoration: none;
+	color: white;
+}
+.hoverlogin{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+}
+.action-item:hover  .hoverlogin{
+	display: block;
+	width: 280px;
+	height: 220px;
+	border: 1px solid thistle;
+	z-index: 40;
+}
+.action-item .icon{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	background: whitesmoke;
+	text-align: center;
+}
+
+/*phan gio hang */
+.itemgiohang.checkout{
+	display: block;
+}
+.checkout a{
+	text-decoration: none;
+	color: white;
+	border: none;
+	background: red;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	height: 35px;
+	line-height: 35px;
+}
+.itemgiohang .red{
+	color: red;
+}
+.item5 .gio-hang a{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
+.gio-hang{
+	position: relative;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+}
+.itemgiohang{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+	padding: 10px;
+	
+}
+.item5:hover  .itemgiohang{
+	display: block;
+	width: 280px;
+	height: 80px;
+	margin-left: -180px;
+}
+.gio-hang .icon{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	background: whitesmoke;
+	text-align: center;
+	display: block;
+}

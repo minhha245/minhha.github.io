@@ -1,0 +1,53 @@
+#footer a{
+	text-decoration: none;
+	color: slateblue;
+}
+#footer a:hover{
+	color: #000000;
+}
+#footer li{
+	list-style-type: none;
+	padding-top: 12px;
+}
+#footer{
+	display: flex;
+	padding-left: 100px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+#hotrokh, #chinhsach, #thanhtoan{
+	padding-left: 100px;;
+}
+
+footer{
+	background: #23285E;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 100px;
+}
+footer #footer2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-size: 13px;
+	color: #F3E6E7;
+	float: left;
+	text-decoration: none;
+}
+footer #footer2  ul{
+	
+	list-style-type: none;
+}
+footer #footer2 p{
+	padding-top: 5px;
+}
+#coso2, #banhang, #phanphoi{
+	margin-left: 45px;
+}
+#cpr{
+	background: #C99C46;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px 140px;
+}

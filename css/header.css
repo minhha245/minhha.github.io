@@ -1,0 +1,357 @@
+.header{
+	height: 200px;
+	background: rgb(102, 170, 172);
+}
+.header-top{
+	
+	height: 70%;
+}
+.header-bottom{
+	height: 30%;
+	padding-top: 10px;
+}
+.logo{
+	
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.user-action{
+	display: flex;
+	border: none;
+	border-radius: 20px;
+	background: rgb(42, 136, 139);
+	width: 500px;
+	padding: 10px;
+	margin-top: -150px;
+	margin-left: 600px;
+}
+
+.hotline .header-hotline{
+	color: white;
+	display: block;
+	padding-left: 10px;
+}
+.item1 .item .hotline-number{
+	border-radius: 2px;
+	text-align: center;
+	background: royalblue;
+	color: #F0F0EC;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	line-height: 18px;
+}
+.item1 .item {
+	display: block;
+    padding: 10px;
+    border-top: 1px solid #e8e8e8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.item1 .item:hover{
+	background: rgb(209, 221, 155);
+}
+.item1 a{
+	text-decoration: none;
+	color: black;
+}
+.hotline1{
+	display: flex;
+	padding: 5px;
+	align-items: center;
+}
+.hotline b{
+	display: block;
+}
+.item1{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+	border-radius: 3px;
+}
+.hotline:hover .item1{
+	display: block;
+	width: 320px;
+	height: 155px;
+	border: 1px solid thistle;
+	z-index: 4;
+}
+.hotline .icon-phone{
+	border-radius: 45px;
+	height: 45px;
+	width: 45px;
+	background: whitesmoke;
+	line-height: 45px;
+	text-align: center;
+}
+
+
+.line-doc{
+	background: rgb(95, 47, 226);
+	height: 30px;
+	width: 1px;
+	margin: 12px;
+}
+
+/*phan dang ky dang nhap */
+.hover-login a{
+	color: black;
+}
+.login-google{
+	margin-top: 5px;
+	display: flex;
+}
+.login-google .icon-login{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px ;
+	background: rgb(236, 44, 44);
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.login-google .login-txt{
+	background: rgb(243, 84, 56);
+	text-align: center;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	line-height: 40px;
+	height: 40px;
+	width: 250px;
+}
+/*login with fb*/
+.login-fb{
+	margin-top: 5px;
+	display: flex;
+}
+.login-fb .icon-login{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px ;
+	background: rgb(20, 58, 129);
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.login-fb .login-txt{
+	background: rgb(45, 78, 148);
+	text-align: center;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	line-height: 40px;
+	height: 40px;
+	width: 250px;
+}
+/*login with zalo*/
+.login-zalo{
+	margin-top: 5px;
+	display: flex;
+}
+.login-zalo .icon-login{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px ;
+	background: rgb(44, 105, 236);
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.login-zalo .login-txt{
+	background: rgb(75, 134, 245);
+	text-align: center;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	line-height: 40px;
+	height: 40px;
+	width: 250px;
+}/*hfhfhfhfh*/
+.login a{
+	border-radius: 2px;
+	background: rgb(253, 222, 47);
+	text-align: center;
+	padding: 10px;
+	margin-top: 5px;
+}
+.item22{
+	align-items: center;
+	display: flex;
+	padding: 5px;
+	position: relative;
+}
+.item2 .hover-login a{
+	display: block;
+	text-decoration: none;
+}
+.signin a{
+	display: block;
+	padding-left: 10px;
+	text-decoration: none;
+	color: white;
+}
+.hover-login{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+}
+.item2:hover  .hover-login{
+	display: block;
+	width: 280px;
+	height: 220px;
+	border: 1px solid thistle;
+	z-index: 40;
+}
+.item2 .icon-user{
+	border-radius: 45px;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	background: whitesmoke;
+	text-align: center;
+}
+
+/*phan gio hang */
+.item-giohang.checkout{
+	display: block;
+}
+.checkout a{
+	text-decoration: none;
+	color: white;
+	border: none;
+	background: red;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	height: 35px;
+	line-height: 35px;
+}
+.item-giohang .red{
+	color: red;
+}
+.item3 .giohang a{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
+.giohang{
+	position: relative;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+}
+.item-giohang{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+	padding: 10px;
+	
+}
+.item3:hover  .item-giohang{
+	display: block;
+	width: 280px;
+	height: 80px;
+	margin-left: -100px;
+}
+.giohang .icon-bag{
+	border-radius: 45px;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	background: whitesmoke;
+	text-align: center;
+	display: block;
+}
+
+.searchbar{
+	float: right;
+	margin-right: 25px;
+	display: flex;
+}
+.searchbar input[type=text]{
+	height: 25px;
+	width: 500px;
+	border: none;
+	font-size: 17px;
+	padding: 5px;
+}
+ .searchbar  button{
+	height: 35px;
+	width: 70px;
+	border: none;
+	background: rgb(209, 221, 155);
+	font-size: 22px;
+	
+}
+ .searchbar  button:hover{
+background: rgb(223, 96, 96);
+}
+
+ .searchbar #left p{ 
+	border: none ;
+	font-size: 15px;
+	color: white;
+	background: rgb(42, 136, 139);
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	padding: 5px 12px 5px 12px;
+	display: inline-block;	
+}
+.searchbar #left #left1 {
+	padding-left: 30px;
+
+}
+.searchbar #left #left1 a{
+	text-decoration: none;
+	color: ghostwhite;
+}
+
+#thanhmenu ul{
+	background: #098FC7;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	list-style-type: none;
+	text-align: center;
+}
+#thanhmenu li{
+	display: inline-block;
+	font-size: 18px;
+	color: #EFEFFC;
+	width: 180px;
+	line-height: 40px;
+}
+#thanhmenu a{
+	
+	text-decoration: none;
+	color: aliceblue;
+	display: block;
+}
+#thanhmenu a:hover{
+	background: #F7F7F7;
+	color: #000000;
+}
+.listdanhmuc a{
+	font-size: 13px;
+	display: inline-block;
+	padding-left: 5px;
+}
+.listdanhmuc li{
+	display: none;
+}
+#thanhmenu li
+{
+	position: relative;
+}
+.listdanhmuc{
+	display: none;
+	position: absolute;
+	
+}
+#thanhmenu li:hover .listdanhmuc{
+	display: block;
+	text-align: left;
+	z-index: 20;
+}

@@ -1,0 +1,82 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+.wrapper_admin{
+	/*border: 1px solid #000;*/
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+
+}
+/*login*/
+.wrapper_login {
+    width: 20%;
+    margin: 0 auto;
+}
+table.table_login{
+   
+     margin-top: 10%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.table_login tr td{
+padding: 5px;
+}
+/*ad_list*/
+/*.menu{
+      border: 1px solid blue;
+    background: blue;
+}*/
+ul.admin_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.admin_list li {
+    float: left;
+    margin: 5px;
+}
+ul.admin_list li a {
+    text-decoration: none;
+ margin: 15px;
+ font-size: 20px;
+    }
+  ul.admin_list li a:hover {
+   color: red;
+    }  
+.clear{
+	clear:both;
+}
+h3.title_admin {
+    text-align: center;
+    font-size: 40px;
+    color: #1a1aff;
+}
+p.footer{
+    text-align: center;
+    border: 1px solid blue;
+  margin-top: 2%;
+  background:#00ff00 ;
+  height: 30px;
+  line-height: 30px;
+}
+p.header{
+    text-align: center;
+    border: 1px solid blue;
+  background:#00ff00 ;
+  height: 70px;
+font-size: 25px;
+line-height: 50px;
+}
+.dashboard{
+    color: red;
+    font-size: 20px;
+}
+.main_admin{
+    border: 1px solid greenyellow;
+    width: 98%;
+    height: auto;
+    margin-left: 10px;
+}

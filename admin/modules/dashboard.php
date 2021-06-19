@@ -1,0 +1,1 @@
+<p class="dashboard">Welcome to dashboard !!!</p>

@@ -1,0 +1,1 @@
+<p>Cảm ơn bạn đã mua hàng, chúng tôi sẽ liên hệ bạn trong thời gian sớm nhất.Mọi thắc mắc liên hệ 1900.1905.</p>
