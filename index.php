@@ -17,7 +17,7 @@
 		<?php
 		session_start();
 		 //unset($_SESSION['dangky']);
-		include("admin/config/config.php");	
+		//include("admin/config/config.php");	
 		// include("pages/searchbar_khi_scroll.php");
 		include("pages/header.php");
 		include("pages/menu.php");
